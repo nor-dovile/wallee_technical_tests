@@ -54,6 +54,7 @@ describe('Checkout should be completed without any errors', () => {
     shipping.fillUpCity()
     shipping.fillUpPostalCode()
     shipping.fillUpPhoneNumber()
+    shipping.selectShippingMethod()
     shipping.clickOnNext()
 
     // on payment method page
@@ -109,6 +110,7 @@ describe('User should be able to create an account at the end of the checkout pr
     shipping.fillUpCity()
     shipping.fillUpPostalCode()
     shipping.fillUpPhoneNumber()
+    shipping.selectShippingMethod()
     shipping.clickOnNext()
 
     // select a payment method and place the order
@@ -138,5 +140,58 @@ describe('User should be able to create an account at the end of the checkout pr
       .then((text) => {
         expect(text).to.match(/Thank you for registering with Main Website Store/)
       })
+  })
+})
+
+describe('Negative scenario: User should receive warnings if required fields are missing in the shipping address form', () => {
+  beforeEach(() => {
+    cy.visit('/women.html')
+  })
+
+  it('User can create account at checkout', () => {
+    // add the first item to the cart
+    productCard.selectSize(0, 'S')
+    productCard.selectColor(0, 'Purple')
+    productCard.addToCart(0)
+
+    cy.wait(500);
+
+    // check the success message is showed
+    messages.getMessageText()
+      .then((text) => {
+        expect(text).to.match(/You added .* to your /)
+      })
+
+    // check the correct number is showed in the chart
+    cartIcon.getCartNumberOfItems()
+      .then((text) => {
+        expect(text).to.match(/1/)
+      })
+
+    // go to checkout
+    cartIcon.clickOnIcon()
+    cartIcon.clickProceedToCheckout()
+
+    // click on next without filling any required field
+    shipping.clickOnNext()
+
+    // check that the warning for shipping method appears
+    shipping.checkShippingMethodErrorIsVisible()
+
+    // select a shipping method
+    shipping.selectShippingMethod()
+    shipping.clickOnNext()
+
+    cy.wait(500);
+
+    // check that the required fields errors appear in the form
+    shipping.checkRequiredFieldErrorOnEmail()
+    shipping.checkRequiredFieldErrorOnFirstName()
+    shipping.checkRequiredFieldErrorOnLastName()
+    shipping.checkRequiredFieldErrorOnAdress()
+    shipping.checkRequiredFieldErrorOnProvidence()
+    shipping.checkRequiredFieldErrorOnCity()
+    shipping.checkRequiredFieldErrorOnPostcode()
+    shipping.checkRequiredFieldErrorOnPhone()
   })
 })
