@@ -1255,6 +1255,7 @@ Steps:
 **Expected Result:**
 
  The user can log in successfully with the created account credentials and access his account dashboard.
+
 ---
 
 **Test Case ID:** TC-ACCOUNT-02
@@ -1556,7 +1557,7 @@ Hint: The password should be at least twelve characters long. To make it stronge
 
 ## All the menu items are functional
 
-**Test Case ID:** TC-HOMEPAGE-08
+**Test Case ID:** TC-HOMEPAGE-01
 
 **Test Case Title:** Verify Navigation Using Breadcrumbs
 
@@ -1579,7 +1580,7 @@ Hint: The password should be at least twelve characters long. To make it stronge
 
 ---
 
-**Test Case ID:** TC-HOMEPAGE-09
+**Test Case ID:** TC-HOMEPAGE-02
 
 **Test Case Title:** Verify Mobile Menu Functionality
 
