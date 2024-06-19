@@ -2,21 +2,13 @@
 
 ## Navigation of the pages
 
-**Test Case ID:**
+**Test Case ID:** TC-NAVIGATE-01
 
-TC-NAVIGATE-01
+**Test Case Title:** Verify Home Page Navigation
 
-**Test Case Title:**
+**Priority:** Critical
 
-Verify Home Page Navigation
-
-**Priority:**
-
-Critical
-
-**Description:**
-
-Ensure users can navigate to the home page.
+**Description:** Ensure users can navigate to the home page.
 
 **Precondition:** - 
 
@@ -34,21 +26,13 @@ Ensure users can navigate to the home page.
 
 ---
 
-**Test Case ID:**
+**Test Case ID:** TC-NAVIGATE-02
 
-TC-NAVIGATE-02
+**Test Case Title:** Verify Product Page Navigation
 
-**Test Case Title:**
+**Priority:** Critical
 
-Verify Product Page Navigation
-
-**Priority:**
-
-Critical
-
-**Description:**
-
-Ensure users can navigate to a product page.
+**Description:** Ensure users can navigate to a product page.
 
 **Precondition:** - 
 
@@ -64,21 +48,13 @@ Ensure users can navigate to a product page.
  The user is redirected to the respective product page, and the product details are displayed correctly.
 ---
 
-**Test Case ID:**
+**Test Case ID:** TC-NAVIGATE-03
 
-TC-NAVIGATE-03
+**Test Case Title:** Verify Category Page Navigation
 
-**Test Case Title:**
+**Priority:** Low
 
-Verify Category Page Navigation
-
-**Priority:**
-
-Low
-
-**Description:**
-
-Ensure users can navigate to a category page.
+**Description:** Ensure users can navigate to a category page.
 
 **Precondition:** - 
 
@@ -96,21 +72,13 @@ Ensure users can navigate to a category page.
 
 ---
 
-**Test Case ID:**
+**Test Case ID:** TC-NAVIGATE-04
 
-TC-NAVIGATE-04
+**Test Case Title:** Verify Cart Page Navigation
 
-**Test Case Title:**
+**Priority:** Critical
 
-Verify Cart Page Navigation
-
-**Priority:**
-
-Critical
-
-**Description:**
-
-Ensure users can navigate to the cart page.
+**Description:** Ensure users can navigate to the cart page.
 
 **Precondition:** - 
 
@@ -127,21 +95,13 @@ Ensure users can navigate to the cart page.
 
 ---
 
-**Test Case ID:**
+**Test Case ID:** TC-NAVIGATE-05
 
-TC-NAVIGATE-05
+**Test Case Title:** Verify Cart Page Navigation from the cart icon side view
 
-**Test Case Title:**
+**Priority:** Medium
 
-Verify Cart Page Navigation from the cart icon side view
-
-**Priority:**
-
-Medium
-
-**Description:**
-
-Ensure users can navigate to the cart page.
+**Description:** Ensure users can navigate to the cart page.
 
 **Precondition:** The user has one or more items in the cart.
 
@@ -158,21 +118,13 @@ Ensure users can navigate to the cart page.
 
 ---
 
-**Test Case ID:**
+**Test Case ID:** TC-NAVIGATE-06
 
-TC-NAVIGATE-06
+**Test Case Title:** Verify Checkout Page Navigation (Cart Page)
 
-**Test Case Title:**
+**Priority:** Critical
 
-Verify Checkout Page Navigation (Cart Page)
-
-**Priority:**
-
-Critical
-
-**Description:**
-
-Ensure users can navigate to the checkout page from the cart page.
+**Description:** Ensure users can navigate to the checkout page from the cart page.
 
 **Precondition:** The user should have at least one item in the cart and stay on the cart page.
 
@@ -188,21 +140,13 @@ Ensure users can navigate to the checkout page from the cart page.
 
 ---
 
-**Test Case ID:**
+**Test Case ID:** TC-NAVIGATE-07
 
-TC-NAVIGATE-07
+**Test Case Title:** Verify Checkout Page Navigation (Cart Icon Side Page)
 
-**Test Case Title:**
+**Priority:** Critical
 
-Verify Checkout Page Navigation (Cart Icon Side Page)
-
-**Priority:**
-
-Critical
-
-**Description:**
-
-Ensure users can navigate to the checkout page from the shopping cart icon side page.
+**Description:** Ensure users can navigate to the checkout page from the shopping cart icon side page.
 
 **Precondition:** -
 
@@ -222,21 +166,13 @@ Ensure users can navigate to the checkout page from the shopping cart icon side 
 
 ---
 
-**Test Case ID:**
+**Test Case ID:** TC-NAVIGATE-08
 
-TC-NAVIGATE-08
+**Test Case Title:** Verify My Account Page Navigation
 
-**Test Case Title:**
+**Priority:** Low
 
-Verify My Account Page Navigation
-
-**Priority:**
-
-Low
-
-**Description:**
-
-Ensure users can navigate to my account page.
+**Description:** Ensure users can navigate to my account page.
 
 **Precondition:** - 
 
@@ -253,21 +189,13 @@ Ensure users can navigate to my account page.
 
 ---
 
-**Test Case ID:**
+**Test Case ID:** TC-NAVIGATE-09
 
-TC-NAVIGATE-09
+**Test Case Title:** Verify Shop Menu Navigation
 
-**Test Case Title:**
+**Priority:** Critical
 
-Verify Shop Menu Navigation
-
-**Priority:**
-
-Critical
-
-**Description:**
-
-Ensure the "Shop" menu link navigates to the main shop page.
+**Description:** Ensure the "Shop" menu link navigates to the main shop page.
 
 **Precondition:** - 
 
@@ -284,21 +212,13 @@ Ensure the "Shop" menu link navigates to the main shop page.
 
 ---
 
-**Test Case ID:**
+**Test Case ID:** TC-NAVIGATE-10
 
-TC-NAVIGATE-10
+**Test Case Title:** Verify Footer Link Navigation
 
-**Test Case Title:**
+**Priority:** Low
 
-Verify Footer Link Navigation
-
-**Priority:**
-
-Low
-
-**Description:**
-
-Ensure users can navigate using links in the footer.
+**Description:** Ensure users can navigate using links in the footer.
 
 **Precondition:** - 
 
@@ -317,21 +237,13 @@ Ensure users can navigate using links in the footer.
 
 ---
 
-**Test Case ID:**
+**Test Case ID:** TC-NAVIGATE-11
 
-TC-NAVIGATE-11
+**Test Case Title:** Verify Breadcrumb Navigation
 
-**Test Case Title:**
+**Priority:** Low
 
-Verify Breadcrumb Navigation
-
-**Priority:**
-
-Low
-
-**Description:**
-
-Ensure users can use breadcrumb links to navigate.
+**Description:** Ensure users can use breadcrumb links to navigate.
 
 **Precondition:** - 
 
@@ -349,21 +261,13 @@ Ensure users can use breadcrumb links to navigate.
 
 ---
 
-**Test Case ID:**
+**Test Case ID:** TC-NAVIGATE-12
 
-TC-NAVIGATE-12
+**Test Case Title:** Verify External Link Navigation
 
-**Test Case Title:**
+**Priority:** Low
 
-Verify External Link Navigation
-
-**Priority:**
-
-Low
-
-**Description:**
-
-Ensure users can navigate to external links from the website.
+**Description:** Ensure users can navigate to external links from the website.
 
 **Precondition:** - 
 
@@ -383,21 +287,13 @@ Ensure users can navigate to external links from the website.
 
 ## Adding products to the cart
 
-**Test Case ID:**
+**Test Case ID:** TC-CART-01
 
-TC-CART-01
+**Test Case Title:** Add Single Product to Cart
 
-**Test Case Title:**
+**Priority:** Critical
 
-Add Single Product to Cart
-
-**Priority:**
-
-Critical
-
-**Description:**
-
-Ensure a single product can be added to the cart.
+**Description:** Ensure a single product can be added to the cart.
 
 **Precondition:** - 
 
@@ -414,21 +310,13 @@ Ensure a single product can be added to the cart.
 
 ---
 
-**Test Case ID:**
+**Test Case ID:** TC-CART-02
 
-TC-CART-02
+**Test Case Title:** Add Multiple Products to Cart
 
-**Test Case Title:**
+**Priority:** Critical
 
-Add Multiple Products to Cart
-
-**Priority:**
-
-Critical
-
-**Description:**
-
-Ensure multiple products can be added to the cart.
+**Description:** Ensure multiple products can be added to the cart.
 
 **Precondition:** - 
 
@@ -447,21 +335,13 @@ Ensure multiple products can be added to the cart.
 
 ---
 
-**Test Case ID:**
+**Test Case ID:** TC-CART-03
 
-TC-CART-03
+**Test Case Title:** Add Same Product Multiple Times
 
-**Test Case Title:**
+**Priority:** Critical
 
-Add Same Product Multiple Times
-
-**Priority:**
-
-Critical
-
-**Description:**
-
-Ensure the same product can be added multiple times, and the cart updates correctly.
+**Description:** Ensure the same product can be added multiple times, and the cart updates correctly.
 
 **Precondition:** - 
 
@@ -480,21 +360,13 @@ Ensure the same product can be added multiple times, and the cart updates correc
 
 ---
 
-**Test Case ID:**
+**Test Case ID:** TC-CART-04
 
-TC-CART-04
+**Test Case Title:** Update Product Quantity in Cart
 
-**Test Case Title:**
+**Priority:** High
 
-Update Product Quantity in Cart
-
-**Priority:**
-
-High
-
-**Description:**
-
-Ensure the quantity of a product can be updated in the cart.
+**Description:** Ensure the quantity of a product can be updated in the cart.
 
 **Precondition:** - 
 
@@ -513,21 +385,13 @@ Ensure the quantity of a product can be updated in the cart.
 
 ---
 
-**Test Case ID:**
+**Test Case ID:** TC-CART-05
 
-TC-CART-05
+**Test Case Title:** Remove Product from Cart
 
-**Test Case Title:**
+**Priority:** Critical
 
-Remove Product from Cart
-
-**Priority:**
-
-Critical
-
-**Description:**
-
-Ensure a product can be removed from the cart.
+**Description:** Ensure a product can be removed from the cart.
 
 **Precondition:** - 
 
@@ -547,21 +411,13 @@ Ensure a product can be removed from the cart.
 
 ---
 
-**Test Case ID:**
+**Test Case ID:** TC-CART-06
 
-TC-CART-06
+**Test Case Title:** Verify Cart Empty State on the Cart Page
 
-**Test Case Title:**
+**Priority:** Medium
 
-Verify Cart Empty State on the Cart Page
-
-**Priority:**
-
-Medium
-
-**Description:**
-
-Ensure the cart displays correctly when empty.
+**Description:** Ensure the cart displays correctly when empty.
 
 **Precondition:** - 
 
@@ -579,21 +435,13 @@ Ensure the cart displays correctly when empty.
 
 ---
 
-**Test Case ID:**
+**Test Case ID:** TC-CART-07
 
-TC-CART-07
+**Test Case Title:** Verify Cart Empty State on the cart icon side view
 
-**Test Case Title:**
+**Priority:** Medium
 
-Verify Cart Empty State on the cart icon side view
-
-**Priority:**
-
-Medium
-
-**Description:**
-
-Ensure the cart displays correctly when empty.
+**Description:** Ensure the cart displays correctly when empty.
 
 **Precondition:** - 
 
@@ -615,21 +463,13 @@ Ensure the cart displays correctly when empty.
 
 ---
 
-**Test Case ID:**
+**Test Case ID:** TC-CART-08
 
-TC-CART-08
+**Test Case Title:** Cart Icon/Indicator Updates Correctly
 
-**Test Case Title:**
+**Priority:** High
 
-Cart Icon/Indicator Updates Correctly
-
-**Priority:**
-
-High
-
-**Description:**
-
-Ensure the cart icon/indicator updates correctly with each product's addition.
+**Description:** Ensure the cart icon/indicator updates correctly with each product's addition.
 
 **Precondition:** - 
 
@@ -651,21 +491,13 @@ Ensure the cart icon/indicator updates correctly with each product's addition.
 
 ---
 
-**Test Case ID:**
+**Test Case ID:** TC-CART-09
 
-TC-CART-09
+**Test Case Title:** Cart Persistence After Page Reload
 
-**Test Case Title:**
+**Priority:** Low
 
-Cart Persistence After Page Reload
-
-**Priority:**
-
-Low
-
-**Description:**
-
-Ensure the cart contents are not changing after reloading the page.
+**Description:** Ensure the cart contents are not changing after reloading the page.
 
 **Precondition:** - 
 
@@ -685,21 +517,13 @@ Ensure the cart contents are not changing after reloading the page.
 
 ## Checkout processes
 
-**Test Case ID:**
+**Test Case ID:** TC-CHECKOUT-01
 
-TC-CHECKOUT-01
+**Test Case Title:** Successful Checkout with Guest User
 
-**Test Case Title:**
+**Priority:** Critical
 
-Successful Checkout with Guest User
-
-**Priority:**
-
-Critical
-
-**Description:**
-
-Ensure a guest user can complete the checkout process successfully.
+**Description:** Ensure a guest user can complete the checkout process successfully.
 
 **Precondition:** The user should have at least one item in the cart and stay on the cart page.
 
@@ -719,21 +543,13 @@ Ensure a guest user can complete the checkout process successfully.
 
 ---
 
-**Test Case ID:**
+**Test Case ID:** TC-CHECKOUT-02
 
-TC-CHECKOUT-02
+**Test Case Title:** Successful Checkout with Registered User
 
-**Test Case Title:**
+**Priority:** Critical
 
-Successful Checkout with Registered User
-
-**Priority:**
-
-Critical
-
-**Description:**
-
-Ensure a registered user can complete the checkout process successfully.
+**Description:** Ensure a registered user can complete the checkout process successfully.
 
 **Precondition:** - 
 
@@ -757,21 +573,13 @@ Ensure a registered user can complete the checkout process successfully.
 
 ---
 
-**Test Case ID:**
+**Test Case ID:** TC-CHECKOUT-03
 
-TC-CHECKOUT-03
+**Test Case Title:** Checkout with Different Billing and Shipping Addresses
 
-**Test Case Title:**
+**Priority:** Low
 
-Checkout with Different Billing and Shipping Addresses
-
-**Priority:**
-
-Low
-
-**Description:**
-
-Ensure the checkout process works correctly when using different billing and shipping addresses.
+**Description:** Ensure the checkout process works correctly when using different billing and shipping addresses.
 
 **Precondition:** The user should have at least one item in the cart and stay on the cart page.
 
@@ -792,21 +600,13 @@ Ensure the checkout process works correctly when using different billing and shi
 
 ---
 
-**Test Case ID:**
+**Test Case ID:** TC-CHECKOUT-04
 
-TC-CHECKOUT-04
+**Test Case Title:** Checkout with Multiple Products
 
-**Test Case Title:**
+**Priority:** Critical
 
-Checkout with Multiple Products
-
-**Priority:**
-
-Critical
-
-**Description:**
-
-Ensure the checkout process works correctly when multiple products are in the cart.
+**Description:** Ensure the checkout process works correctly when multiple products are in the cart.
 
 **Precondition:** - 
 
@@ -830,21 +630,13 @@ Ensure the checkout process works correctly when multiple products are in the ca
 
 ---
 
-**Test Case ID:**
+**Test Case ID:** TC-CHECKOUT-05
 
-TC-CHECKOUT-05
+**Test Case Title:** Checkout with Coupon Code (Valid)
 
-**Test Case Title:**
+**Priority:** Low
 
-Checkout with Coupon Code (Valid)
-
-**Priority:**
-
-Low
-
-**Description:**
-
-Ensure the checkout process works correctly when a coupon code is applied.
+**Description:** Ensure the checkout process works correctly when a coupon code is applied.
 
 **Precondition:** The user has to know the exact coupon code to use it.
 
@@ -868,21 +660,13 @@ Ensure the checkout process works correctly when a coupon code is applied.
 
 ---
 
-**Test Case ID:**
+**Test Case ID:** TC-CHECKOUT-06
 
-TC-CHECKOUT-06
+**Test Case Title:** Checkout with Coupon Code (Not Valid)
 
-**Test Case Title:**
+**Priority:** Low
 
-Checkout with Coupon Code (Not Valid)
-
-**Priority:**
-
-Low
-
-**Description:**
-
-Ensure the error message appears: “Coupon … does not exist!” when the wrong coupon code is applied.
+**Description:** Ensure the error message appears: “Coupon … does not exist!” when the wrong coupon code is applied.
 
 **Precondition:** The user should have at least one item in the cart and stay on the cart page
 
@@ -900,21 +684,13 @@ Ensure the error message appears: “Coupon … does not exist!” when the wron
 
 ---
 
-**Test Case ID:**
+**Test Case ID:** TC-CHECKOUT-07
 
-TC-CHECKOUT-07
+**Test Case Title:** Checkout with Invalid Payment Method
 
-**Test Case Title:**
+**Priority:** Critical
 
-Checkout with Invalid Payment Method
-
-**Priority:**
-
-Critical
-
-**Description:**
-
-Ensure appropriate error handling when an invalid payment method is used.
+**Description:** Ensure appropriate error handling when an invalid payment method is used.
 
 **Precondition:** The user should have at least one item in the cart and stay on the cart page
 
@@ -933,21 +709,13 @@ Ensure appropriate error handling when an invalid payment method is used.
 
 ---
 
-**Test Case ID:**
+**Test Case ID:** TC-CHECKOUT-08
 
-TC-CHECKOUT-08
+**Test Case Title:** Checkout with Cancel Functionality
 
-**Test Case Title:**
+**Priority:** Medium
 
-Checkout with Cancel Functionality
-
-**Priority:**
-
-Medium
-
-**Description:**
-
-Ensure the user can cancel payment and is redirected to the Checkout page after the canceled payment.
+**Description:** Ensure the user can cancel payment and is redirected to the Checkout page after the canceled payment.
 
 **Precondition:** The user should have at least one item in the cart and stay on the cart page.
 
@@ -968,21 +736,13 @@ Ensure the user can cancel payment and is redirected to the Checkout page after 
 
 ---
 
-**Test Case ID:**
+**Test Case ID:** TC-CHECKOUT-09
 
-TC-CHECKOUT-09
+**Test Case Title:** Initiate new Payment after Canceled Payment 
 
-**Test Case Title:**
+**Priority:** Critical
 
-Initiate new Payment after Canceled Payment 
-
-**Priority:**
-
-Critical
-
-**Description:**
-
-Ensure the user is redirected to the Checkout page after canceling payment with the opportunity to continue payment for the same order again.
+**Description:** Ensure the user is redirected to the Checkout page after canceling payment with the opportunity to continue payment for the same order again.
 
 **Precondition:** The user should have at least one item in the cart and stay on the cart page.
 
@@ -1006,21 +766,13 @@ The user can choose payment methods again and pay for the order.
 
 ---
 
-**Test Case ID:**
+**Test Case ID:** TC-CHECKOUT-10
 
-TC-CHECKOUT-10
+**Test Case Title:** Verify payment failing if terms and conditions are not accepted
 
-**Test Case Title:**
+**Priority:** High
 
-Verify payment failing if terms and conditions are not accepted
-
-**Priority:**
-
-High
-
-**Description:**
-
-Ensure the error message appears: Please read and accept the terms and conditions to proceed with your order" if the user is not accepting the terms and conditions of the website.
+**Description:** Ensure the error message appears: Please read and accept the terms and conditions to proceed with your order" if the user is not accepting the terms and conditions of the website.
 
 **Precondition:** The user should have at least one item in the cart and stay on the cart page.
 
@@ -1044,21 +796,13 @@ After not agreeing with the website terms and conditions, an appropriate error m
 
 ---
 
-**Test Case ID:**
+**Test Case ID:** TC-CHECKOUT-11
 
-TC-CHECKOUT-11
+**Test Case Title:** Checkout with Required Fields Missing
 
-**Test Case Title:**
+**Priority:** Critical
 
-Checkout with Required Fields Missing
-
-**Priority:**
-
-Critical
-
-**Description:**
-
-Ensure appropriate error handling when required fields are missing.
+**Description:** Ensure appropriate error handling when required fields are missing.
 
 **Precondition:** - 
 
@@ -1079,21 +823,13 @@ Ensure appropriate error handling when required fields are missing.
 
 ---
 
-**Test Case ID:**
+**Test Case ID:** TC-CHECKOUT-12
 
-TC-CHECKOUT-12
+**Test Case Title:** Verify Order Confirmation Email
 
-**Test Case Title:**
+**Priority:** High
 
-Verify Order Confirmation Email
-
-**Priority:**
-
-High
-
-**Description:**
-
-Ensure the user receives an order confirmation email upon successful checkout.
+**Description:** Ensure the user receives an order confirmation email upon successful checkout.
 
 **Precondition:** The user should have at least one item in the cart and stay on the cart page.
 
@@ -1114,21 +850,13 @@ Ensure the user receives an order confirmation email upon successful checkout.
 
 ---
 
-**Test Case ID:**
+**Test Case ID:** TC-CHECKOUT-13
 
-TC-CHECKOUT-13
+**Test Case Title:** Verify Persistence of Cart and Checkout Information
 
-**Test Case Title:**
+**Priority:** Low
 
-Verify Persistence of Cart and Checkout Information
-
-**Priority:**
-
-Low
-
-**Description:**
-
-Ensure cart and checkout information persist if the user navigates away and returns to the checkout page.
+**Description:** Ensure cart and checkout information persist if the user navigates away and returns to the checkout page.
 
 **Precondition:** The user should have at least one item in the cart and stay on the cart page.
 
@@ -1146,21 +874,13 @@ Ensure cart and checkout information persist if the user navigates away and retu
 
 ---
 
-**Test Case ID:**
+**Test Case ID:** TC-CHECKOUT-14
 
-TC-CHECKOUT-14
+**Test Case Title:** Create Account During Checkout (Valid Data) 
 
-**Test Case Title:**
+**Priority:** High
 
-Create Account During Checkout (Valid Data) 
-
-**Priority:**
-
-High
-
-**Description:**
-
-Ensure that the user can create an account on the checkout with valid data.
+**Description:** Ensure that the user can create an account on the checkout with valid data.
 
 **Precondition:** The user should have at least one item in the cart and stay on the cart page.
 
@@ -1182,21 +902,13 @@ Ensure that the user can create an account on the checkout with valid data.
 
 ---
 
-**Test Case ID:**
+**Test Case ID:** TC-CHECKOUT-15
 
-TC-CHECKOUT-15
+**Test Case Title:** Create Account During Checkout (Invalid Email)
 
-**Test Case Title:**
+**Priority:** High
 
-Create Account During Checkout (Invalid Email)
-
-**Priority:**
-
-High
-
-**Description:**
-
-Ensure appropriate error handling when an invalid email is used to create an account during checkout.
+**Description:** Ensure appropriate error handling when an invalid email is used to create an account during checkout.
 
 **Precondition:** The user should have at least one item in the cart and stay on the cart page.
 Steps:
@@ -1212,21 +924,13 @@ Steps:
 
 ---
 
-**Test Case ID:**
+**Test Case ID:** TC-CHECKOUT-16
 
-TC-CHECKOUT-16
+**Test Case Title:** Create Account During Checkout (Already Existing Email)
 
-**Test Case Title:**
+**Priority:** High
 
-Create Account During Checkout (Already Existing Email)
-
-**Priority:**
-
-High
-
-**Description:**
-
-Ensure appropriate error handling when an email already associated with an existing account is used.
+**Description:** Ensure appropriate error handling when an email already associated with an existing account is used.
 
 **Precondition:** The user should have at least one item in the cart and stay on the cart page.
 Steps:
@@ -1242,21 +946,13 @@ Steps:
 
 ---
 
-**Test Case ID:**
+**Test Case ID:** TC-CHECKOUT-17
 
-TC-CHECKOUT-17
+**Test Case Title:** Verify Account Creation Confirmation Email
 
-**Test Case Title:**
+**Priority:** Low
 
-Verify Account Creation Confirmation Email
-
-**Priority:**
-
-Low
-
-**Description:**
-
-Ensure the user receives an account creation confirmation email upon creating an account during checkout.
+**Description:** Ensure the user receives an account creation confirmation email upon creating an account during checkout.
 
 **Precondition:** The user should have at least one item in the cart and stay on the cart page.
 Steps:
@@ -1275,21 +971,13 @@ Steps:
 
 ---    
 
-**Test Case ID:**
+**Test Case ID:** TC-CHECKOUT-18
 
-TC-CHECKOUT-18
+**Test Case Title:** Verify Order Information in User Account (for Registered Users)
 
-**Test Case Title:**
+**Priority:** Low
 
-Verify Order Information in User Account (for Registered Users)
-
-**Priority:**
-
-Low
-
-**Description:**
-
-Ensure the order appears correctly in the user's account order history after a successful checkout.
+**Description:** Ensure the order appears correctly in the user's account order history after a successful checkout.
 
 **Precondition:** The user should have an account in the system and be logged in. Also, the user should have at least one item in the cart and stay on the cart page.
 
@@ -1311,21 +999,13 @@ Ensure the order appears correctly in the user's account order history after a s
 
 ---
 
-**Test Case ID:**
+**Test Case ID:** TC-CHECKOUT-19
 
-TC-CHECKOUT-19
+**Test Case Title:** Verify Checkout Process with Different Payment Methods
 
-**Test Case Title:**
+**Priority:** Critical
 
-Verify Checkout Process with Different Payment Methods
-
-**Priority:**
-
-Critical
-
-**Description:**
-
-Ensure the checkout process works correctly with different payment methods (e.g., Invoice. Credit/Debit card, Direct Debit (SEPA)).
+**Description:** Ensure the checkout process works correctly with different payment methods (e.g., Invoice. Credit/Debit card, Direct Debit (SEPA)).
 
 **Precondition:** The user should have at least one item in the cart and stay on the cart page.
 
@@ -1347,21 +1027,13 @@ Ensure the checkout process works correctly with different payment methods (e.g.
 
 ## Sorting functionality
 
-**Test Case ID:**
+**Test Case ID:** TC-SORT-01
 
-TC-SORT-01
+**Test Case Title:** Verify Default Sorting
 
-**Test Case Title:**
+**Priority:** Medium
 
-Verify Default Sorting
-
-**Priority:**
-
-Medium
-
-**Description:**
-
-Ensure the default sorting option works as expected.
+**Description:** Ensure the default sorting option works as expected.
 
 **Precondition:** There are at least three products in the shop with a known sequence of the products.
 **Test Steps:**
@@ -1377,21 +1049,13 @@ Ensure the default sorting option works as expected.
 
 ---
 
-**Test Case ID:**
+**Test Case ID:** TC-SORT-02
 
-TC-SORT-02
+**Test Case Title:** Sort by Popularity
 
-**Test Case Title:**
+**Priority:** Medium
 
-Sort by Popularity
-
-**Priority:**
-
-Medium
-
-**Description:**
-
-Ensure products are sorted by popularity.
+**Description:** Ensure products are sorted by popularity.
 
 **Precondition:** There should be at least three products in the shop with known popularity.
 
@@ -1410,21 +1074,13 @@ Ensure products are sorted by popularity.
 
 ---
 
-**Test Case ID:**
+**Test Case ID:** TC-SORT-03
 
-TC-SORT-03
+**Test Case Title:** Sort by Latest
 
-**Test Case Title:**
+**Priority:** Medium
 
-Sort by Latest
-
-**Priority:**
-
-Medium
-
-**Description:**
-
-Ensure the "Sort by latest" sorting option correctly orders products by their addition date, with the newest products displayed first.
+**Description:** Ensure the "Sort by latest" sorting option correctly orders products by their addition date, with the newest products displayed first.
 
 **Precondition:** There should be at least three items in the shop and products with known, distinct addition dates in the shop.
 
@@ -1446,21 +1102,13 @@ Ensure the "Sort by latest" sorting option correctly orders products by their ad
 
 ---
 
-**Test Case ID:**
+**Test Case ID:** TC-SORT-04
 
-TC-SORT-04
+**Test Case Title:** Sort by Price (Low to High)
 
-**Test Case Title:**
+**Priority:** Medium
 
-Sort by Price (Low to High)
-
-**Priority:**
-
-Medium
-
-**Description:**
-
-Ensure products are sorted by price in ascending order.
+**Description:** Ensure products are sorted by price in ascending order.
 
 **Precondition:** There should be at least three items in the shop.
 
@@ -1479,21 +1127,13 @@ Ensure products are sorted by price in ascending order.
 
 ---
 
-**Test Case ID:**
+**Test Case ID:** TC-SORT-05
 
-TC-SORT-05
+**Test Case Title:** Sort by Price (High to Low)
 
-**Test Case Title:**
+**Priority:** Medium
 
-Sort by Price (High to Low)
-
-**Priority:**
-
-Medium
-
-**Description:**
-
-Ensure products are sorted by price in descending order.
+**Description:** Ensure products are sorted by price in descending order.
 
 **Precondition:** There should be at least three items in the shop.
 
@@ -1512,21 +1152,13 @@ Ensure products are sorted by price in descending order.
 
 ---
 
-**Test Case ID:**
+**Test Case ID:** TC-SORT-06
 
-TC-SORT-06
+**Test Case Title:** Validate Sorting Persistence After Page Refresh
 
-**Test Case Title:**
+**Priority:** Low
 
-Validate Sorting Persistence After Page Refresh
-
-**Priority:**
-
-Low
-
-**Description:**
-
-Ensure the selected sorting option persists after refreshing the page.
+**Description:** Ensure the selected sorting option persists after refreshing the page.
 
 **Precondition:** There should be at least three items in the shop.
 
@@ -1546,21 +1178,13 @@ Ensure the selected sorting option persists after refreshing the page.
 
 ---
 
-**Test Case ID:**
+**Test Case ID:** TC-SORT-07
 
-TC-SORT-07
+**Test Case Title:** Validate Sorting Persistence After Navigation
 
-**Test Case Title:**
+**Priority:** Low
 
-Validate Sorting Persistence After Navigation
-
-**Priority:**
-
-Low
-
-**Description:**
-
-Ensure the selected sorting option persists after navigating to another page and returning back to the homepage.
+**Description:** Ensure the selected sorting option persists after navigating to another page and returning back to the homepage.
 
 **Precondition:** There should be at least three items in the shop.
 
@@ -1581,21 +1205,13 @@ Ensure the selected sorting option persists after navigating to another page and
 
 ---
 
-**Test Case ID:**
+**Test Case ID:** TC-SORT-08
 
-TC-SORT-08
+**Test Case Title:** Verify Sorting Performance
 
-**Test Case Title:**
+**Priority:** Low
 
-Verify Sorting Performance
-
-**Priority:**
-
-Low
-
-**Description:**
-
-Ensure the sorting operation performs efficiently.
+**Description:** Ensure the sorting operation performs efficiently.
 
 **Precondition:** There should be at least three items in the shop.
 
@@ -1616,21 +1232,13 @@ Ensure the sorting operation performs efficiently.
 
 ## My Account functionality
 
-**Test Case ID:**
+**Test Case ID:** TC-ACCOUNT-01
 
-TC-ACCOUNT-01
+**Test Case Title:** Verify the user can log in if the correct data is entered
 
-**Test Case Title:**
+**Priority:** Medium
 
-Verify the user can log in if the correct data is entered
-
-**Priority:**
-
-Medium
-
-**Description:**
-
-Ensure the user can log to the system if he provided the correct email and correct password.
+**Description:** Ensure the user can log to the system if he provided the correct email and correct password.
 
 **Precondition:** The user should successfully create an account during checkout.
 
@@ -1648,21 +1256,13 @@ Ensure the user can log to the system if he provided the correct email and corre
  The user can log in successfully with the created account credentials and access his account dashboard.
 ---
 
-**Test Case ID:**
+**Test Case ID:** TC-ACCOUNT-02
 
-TC-ACCOUNT-02
+**Test Case Title:** Verify Error message appears if the wrong email is entered
 
-**Test Case Title:**
+**Priority:** Medium
 
-Verify Error message appears if the wrong email is entered
-
-**Priority:**
-
-Medium
-
-**Description:**
-
-Ensure an error message appears: "Unknown email address. Check again or try your username." when the email is not valid.
+**Description:** Ensure an error message appears: "Unknown email address. Check again or try your username." when the email is not valid.
 
 **Precondition:** The user has an account on the website.
 
@@ -1681,21 +1281,13 @@ Ensure an error message appears: "Unknown email address. Check again or try your
 
 ---
 
-**Test Case ID:**
+**Test Case ID:** TC-ACCOUNT-03
 
-TC-ACCOUNT-03
+**Test Case Title:** Verify Error message appears if the wrong password is entered
 
-**Test Case Title:**
+**Priority:** Medium
 
-Verify Error message appears if the wrong password is entered
-
-**Priority:**
-
-Medium
-
-**Description:**
-
-Ensure the error message appears: " Error: The password you entered for the email address ... is incorrect. Lost your password?"
+**Description:** Ensure the error message appears: " Error: The password you entered for the email address ... is incorrect. Lost your password?"
 
 **Precondition:** The user has an account on the website.
 
@@ -1714,21 +1306,13 @@ Ensure the error message appears: " Error: The password you entered for the emai
 
 ---
 
-**Test Case ID:**
+**Test Case ID:** TC-ACCOUNT-04
 
-TC-ACCOUNT-04
+**Test Case Title:** Verify user can recover his password
 
-**Test Case Title:**
+**Priority:** Low
 
-Verify user can recover his password
-
-**Priority:**
-
-Low
-
-**Description:**
-
-Ensure the link exists: "Lost your password?" under the "Log in" button
+**Description:** Ensure the link exists: "Lost your password?" under the "Log in" button
 
 **Precondition:** The user has an account on the website.
 
@@ -1750,21 +1334,13 @@ Ensure the link exists: "Lost your password?" under the "Log in" button
 
 ---
 
-**Test Case ID:**
+**Test Case ID:** TC-ACCOUNT-05
 
-TC-ACCOUNT-05
+**Test Case Title:** Verify Order Page Navigation
 
-**Test Case Title:**
+**Priority:** Low
 
-Verify Order Page Navigation
-
-**Priority:**
-
-Low
-
-**Description:**
-
-Ensure the user can navigate to the order page.
+**Description:** Ensure the user can navigate to the order page.
 
 **Precondition:** The user has an account on the website and is logged in.
 
@@ -1782,21 +1358,13 @@ Ensure the user can navigate to the order page.
 
 ---
 
-**Test Case ID:**
+**Test Case ID:** TC-ACCOUNT-06
 
-TC-ACCOUNT-06
+**Test Case Title:** Verify Subscriptions Page Navigation
 
-**Test Case Title:**
+**Priority:** Low
 
-Verify Subscriptions Page Navigation
-
-**Priority:**
-
-Low
-
-**Description:**
-
-Ensure the user can navigate to the subscriptions page.
+**Description:** Ensure the user can navigate to the subscriptions page.
 
 **Precondition:** The user has an account on the website and is logged in.
 
@@ -1815,21 +1383,13 @@ Ensure the user can navigate to the subscriptions page.
 
 ---
 
-**Test Case ID:**
+**Test Case ID:** TC-ACCOUNT-07
 
-TC-ACCOUNT-07
+**Test Case Title:** Verify Downloads Page Navigation
 
-**Test Case Title:**
+**Priority:** Low
 
-Verify Downloads Page Navigation
-
-**Priority:**
-
-Low
-
-**Description:**
-
-Ensure the user can navigate to the downloads page.
+**Description:** Ensure the user can navigate to the downloads page.
 
 **Precondition:** The user has an account on the website and is logged in.
 
@@ -1847,21 +1407,13 @@ Ensure the user can navigate to the downloads page.
 
 ---
 
-**Test Case ID:**
+**Test Case ID:** TC-ACCOUNT-08
 
-TC-ACCOUNT-08
+**Test Case Title:** Verify Coupons Page Navigation
 
-**Test Case Title:**
+**Priority:** Low
 
-Verify Coupons Page Navigation
-
-**Priority:**
-
-Low
-
-**Description:**
-
-Ensure the user can navigate to the coupons page.
+**Description:** Ensure the user can navigate to the coupons page.
 
 **Precondition:** The user has an account on the website and is logged in.
 
@@ -1878,21 +1430,13 @@ Ensure the user can navigate to the coupons page.
 
 ---
 
-**Test Case ID:**
+**Test Case ID:** TC-ACCOUNT-09
 
-TC-ACCOUNT-09
+**Test Case Title:** Changing the Shipping Address
 
-**Test Case Title:**
+**Priority:** Low
 
-Changing the Shipping Address
-
-**Priority:**
-
-Low
-
-**Description:**
-
-The user can change his shipping or billing address in the system.
+**Description:** The user can change his shipping or billing address in the system.
 
 **Precondition:** The user has an account on the website and is logged in.
 
@@ -1912,21 +1456,13 @@ The user can change his shipping or billing address in the system.
 
 ---
 
-**Test Case ID:**
+**Test Case ID:** TC-ACCOUNT-10
 
-TC-ACCOUNT-10
+**Test Case Title:** Verify Account Details Page Navigation
 
-**Test Case Title:**
+**Priority:** Low
 
-Verify Account Details Page Navigation
-
-**Priority:**
-
-Low
-
-**Description:**
-
-Ensure the user can navigate to the account details page.
+**Description:** Ensure the user can navigate to the account details page.
 
 **Precondition:** The user has an account on the website and is logged in.
 
@@ -1945,21 +1481,13 @@ Ensure the user can navigate to the account details page.
 
 ---
 
-**Test Case ID:**
+**Test Case ID:** TC-ACCOUNT-11
 
-TC-ACCOUNT-11
+**Test Case Title:** Password Change in Account Details Page (Strong Password)
 
-**Test Case Title:**
+**Priority:** Medium
 
-Password Change in Account Details Page (Strong Password)
-
-**Priority:**
-
-Medium
-
-**Description:**
-
-Ensure the user can change his password to the strong one.
+**Description:** Ensure the user can change his password to the strong one.
 
 **Precondition:** The user has an account on the website and is logged in.
 
@@ -1977,21 +1505,13 @@ Steps:
 
 ---
 
-**Test Case ID:**
+**Test Case ID:** TC-ACCOUNT-12
 
-TC-ACCOUNT-12
+**Test Case Title:** Password Change in Account Details Page (Weak Password)
 
-**Test Case Title:**
+**Priority:** Low
 
-Password Change in Account Details Page (Weak Password)
-
-**Priority:**
-
-Low
-
-**Description:**
-
-Ensure appropriate error handling when a weak password is used to change the password.
+**Description:** Ensure appropriate error handling when a weak password is used to change the password.
 
 **Precondition:** The user has an account on the website and is logged in.
 
@@ -2010,21 +1530,13 @@ Hint: The password should be at least twelve characters long. To make it stronge
 
 ---
 
-**Test Case ID:**
+**Test Case ID:** TC-ACCOUNT-13
 
-TC-ACCOUNT-13
+**Test Case Title:** Verify Log Out Page Navigation
 
-**Test Case Title:**
+**Priority:** Low
 
-Verify Log Out Page Navigation
-
-**Priority:**
-
-Low
-
-**Description:**
-
-Ensure the user can navigate to the Logout page.
+**Description:** Ensure the user can navigate to the Logout page.
 
 **Precondition:** The user has an account on the website and is logged in.
 
@@ -2043,21 +1555,13 @@ Ensure the user can navigate to the Logout page.
 
 ## All the menu items are functional
 
-**Test Case ID:**
+**Test Case ID:** TC-HOMEPAGE-08
 
-TC-HOMEPAGE-08
+**Test Case Title:** Verify Navigation Using Breadcrumbs
 
-**Test Case Title:**
+**Priority:** Low
 
-Verify Navigation Using Breadcrumbs
-
-**Priority:**
-
-Low
-
-**Description:**
-
-Ensure breadcrumb links navigate to the correct pages.
+**Description:** Ensure breadcrumb links navigate to the correct pages.
 
 **Precondition:** - 
 
@@ -2074,21 +1578,13 @@ Ensure breadcrumb links navigate to the correct pages.
 
 ---
 
-**Test Case ID:**
+**Test Case ID:** TC-HOMEPAGE-09
 
-TC-HOMEPAGE-09
+**Test Case Title:** Verify Mobile Menu Functionality
 
-**Test Case Title:**
+**Priority:** Medium
 
-Verify Mobile Menu Functionality
-
-**Priority:**
-
-Medium
-
-**Description:**
-
-Ensure the mobile menu works correctly and navigates to the correct pages.
+**Description:** Ensure the mobile menu works correctly and navigates to the correct pages.
 
 **Precondition:** - 
 
