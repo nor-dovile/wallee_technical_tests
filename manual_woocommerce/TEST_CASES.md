@@ -5,6 +5,7 @@
 Test Case ID: TC-NAVIGATE-01
 Test Case Title: Verify Home Page Navigation
 
+Priority: Critical
 Description: Ensure users can navigate to the home page.
 Precondition: - 
 Test Data: - 
@@ -20,6 +21,7 @@ Expected Result: The user is redirected to the home page, and the home page load
 Test Case ID: TC-NAVIGATE-02
 Test Case Title: Verify Product Page Navigation
 
+Priority: Critical
 Description: Ensure users can navigate to a product page.
 Precondition: - 
 Test Data: - 
@@ -34,6 +36,7 @@ Expected Result: The user is redirected to the respective product page, and the 
 Test Case ID: TC-NAVIGATE-03
 Test Case Title: Verify Category Page Navigation
 
+Priority: Low
 Description: Ensure users can navigate to a category page.
 Precondition: - 
 Test Data: - 
@@ -49,6 +52,7 @@ Expected Result: The user is redirected to the category page, and the products i
 Test Case ID: TC-NAVIGATE-04
 Test Case Title: Verify Cart Page Navigation
 
+Priority: Critical
 Description: Ensure users can navigate to the cart page.
 Precondition: - 
 Test Data: - 
@@ -63,6 +67,7 @@ Expected Result: The user is redirected to the cart page, and the cart's content
 Test Case ID: TC-NAVIGATE-05
 Test Case Title: Verify Cart Page Navigation from the cart icon side view
 
+Priority: Medium
 Description: Ensure users can navigate to the cart page.
 Precondition: The user has one or more items in the cart.
 Test Data: -
@@ -74,12 +79,12 @@ Expected Result: The user is redirected to the cart page, and the cart's content
 
 
 
-
 Test Case ID: TC-NAVIGATE-06
 Test Case Title: Verify Checkout Page Navigation (Cart Page)
 
+Priority: Critical
 Description: Ensure users can navigate to the checkout page from the cart page.
-Precondition: The user has one or more items in the cart.
+Precondition: The user should have at least one item in the cart and stay on the cart page.
 Test Data: -
 Test Steps:
     1. Click on the "Proceed to Checkout" button.
@@ -91,6 +96,7 @@ Expected Result: The user is redirected to the checkout page, and the checkout p
 Test Case ID: TC-NAVIGATE-07
 Test Case Title: Verify Checkout Page Navigation (Cart Icon Side Page)
 
+Priority: Critical
 Description: Ensure users can navigate to the checkout page from the shopping cart icon side page.
 Precondition: -
 Test Data: -
@@ -108,6 +114,7 @@ Expected Result: The user is redirected to the checkout page, and the checkout p
 Test Case ID: TC-NAVIGATE-08
 Test Case Title: Verify My Account Page Navigation
 
+Priority: Low
 Description: Ensure users can navigate to my account page.
 Precondition: - 
 Test Data: - 
@@ -122,6 +129,7 @@ Expected Result: The user is redirected to the My Account page, and the login op
 Test Case ID: TC-NAVIGATE-09
 Test Case Title: Verify Shop Menu Navigation
 
+Priority: Critical
 Description: Ensure the "Shop" menu link navigates to the main shop page.
 Precondition: - 
 Test Data: - 
@@ -136,6 +144,7 @@ Expected Result: The user is redirected to the shop page, displaying all product
 Test Case ID: TC-NAVIGATE-10
 Test Case Title: Verify Footer Link Navigation
 
+Priority: Low
 Description: Ensure users can navigate using links in the footer.
 Precondition: - 
 Test Data: - 
@@ -152,6 +161,7 @@ Expected Result: The user is redirected to the homepage.
 Test Case ID: TC-NAVIGATE-11
 Test Case Title: Verify Breadcrumb Navigation
 
+Priority: Low
 Description: Ensure users can use breadcrumb links to navigate.
 Precondition: - 
 Test Data: - 
@@ -167,6 +177,7 @@ Expected Result: The user is redirected to the respective breadcrumb page (e.g.,
 Test Case ID: TC-NAVIGATE-12
 Test Case Title: Verify External Link Navigation
 
+Priority: Low
 Description: Ensure users can navigate to external links from the website.
 Precondition: - 
 Test Data: - 
@@ -185,6 +196,7 @@ Expected Result: The user is redirected to the external website (https://wordpre
 Test Case ID: TC-CART-01
 Test Case Title: Add Single Product to Cart
 
+Priority: Critical
 Description: Ensure a single product can be added to the cart.
 Precondition: - 
 Test Data: - 
@@ -199,6 +211,7 @@ Expected Result: The product is added to the cart, and the cart icon/indicator u
 Test Case ID: TC-CART-02
 Test Case Title: Add Multiple Products to Cart
 
+Priority: Critical
 Description: Ensure multiple products can be added to the cart.
 Precondition: - 
 Test Data: - 
@@ -215,6 +228,7 @@ Expected Result: Both products are added to the cart, and the cart icon/indicato
 Test Case ID: TC-CART-03
 Test Case Title: Add Same Product Multiple Times
 
+Priority: Critical
 Description: Ensure the same product can be added multiple times, and the cart updates correctly.
 Precondition: - 
 Test Data: - 
@@ -231,6 +245,7 @@ Expected Result: The product's quantity increases in the cart.
 Test Case ID: TC-CART-04
 Test Case Title: Update Product Quantity in Cart
 
+Priority: High
 Description: Ensure the quantity of a product can be updated in the cart.
 Precondition: - 
 Test Data: - 
@@ -247,6 +262,7 @@ Expected Result: The quantity and "Total" price per product are updated accordin
 Test Case ID: TC-CART-05
 Test Case Title: Remove Product from Cart
 
+Priority: Critical
 Description: Ensure a product can be removed from the cart.
 Precondition: - 
 Test Data: - 
@@ -264,6 +280,7 @@ Expected Result: The product is removed from the cart, and the cart updates to s
 Test Case ID: TC-CART-06
 Test Case Title: Verify Cart Empty State on the Cart Page
 
+Priority: Medium
 Description: Ensure the cart displays correctly when empty.
 Precondition: - 
 Test Data: - 
@@ -279,6 +296,7 @@ Test Steps:
 Test Case ID: TC-CART-07
 Test Case Title: Verify Cart Empty State on the cart icon side view
 
+Priority: Medium
 Description: Ensure the cart displays correctly when empty.
 Precondition: - 
 Test Data: - 
@@ -298,6 +316,7 @@ Test Steps:
 Test Case ID: TC-CART-08
 Test Case Title: Cart Icon/Indicator Updates Correctly
 
+Priority: High
 Description: Ensure the cart icon/indicator updates correctly with each product's addition.
 Precondition: - 
 Test Data: - 
@@ -317,6 +336,7 @@ Expected Result: The cart icon/indicator correctly shows the number of items add
 Test Case ID: TC-CART-09
 Test Case Title: Cart Persistence After Page Reload
 
+Priority: Low
 Description: Ensure the cart contents are not changing after reloading the page.
 Precondition: - 
 Test Data: - 
@@ -334,6 +354,7 @@ Expected Result: The added products stay in the cart even after the page reloadi
 Test Case ID: TC-CHECKOUT-01
 Test Case Title: Successful Checkout with Guest User
 
+Priority: Critical
 Description: Ensure a guest user can complete the checkout process successfully.
 Precondition: The user should have at least one item in the cart and stay on the cart page.
 Test Data: - 
@@ -351,6 +372,7 @@ Expected Result: The checkout is completed successfully, an order confirmation p
 Test Case ID: TC-CHECKOUT-02
 Test Case Title: Successful Checkout with Registered User
 
+Priority: Critical
 Description: Ensure a registered user can complete the checkout process successfully.
 Precondition: - 
 Test Data: Email address, password
@@ -372,6 +394,7 @@ Expected Result: The checkout is completed successfully, an order confirmation p
 Test Case ID: TC-CHECKOUT-03
 Test Case Title: Checkout with Different Billing and Shipping Addresses
 
+Priority: Low
 Description: Ensure the checkout process works correctly when using different billing and shipping addresses.
 Precondition: The user should have at least one item in the cart and stay on the cart page.
 Test Data: -
@@ -390,6 +413,7 @@ Expected Result: The checkout is completed successfully, an order confirmation p
 Test Case ID: TC-CHECKOUT-04
 Test Case Title: Checkout with Multiple Products
 
+Priority: Critical
 Description: Ensure the checkout process works correctly when multiple products are in the cart.
 Precondition: - 
 Test Data: - 
@@ -411,6 +435,7 @@ Expected Result: The checkout is completed successfully, an order confirmation p
 Test Case ID: TC-CHECKOUT-05
 Test Case Title: Checkout with Coupon Code (Valid)
 
+Priority: Low
 Description: Ensure the checkout process works correctly when a coupon code is applied.
 Precondition: The user has to know the exact coupon code to use it.
 Test Data: Coupon code
@@ -432,6 +457,7 @@ Expected Result: The checkout is completed successfully with the discount applie
 Test Case ID: TC-CHECKOUT-06
 Test Case Title: Checkout with Coupon Code (Not Valid)
 
+Priority: Low
 Description: Ensure the error message appears: “Coupon … does not exist!” when the wrong coupon code is applied.
 Precondition: The user should have at least one item in the cart and stay on the cart page
 Test Data: Wrong coupon code.
@@ -447,6 +473,7 @@ Expected Result: The error code appears: “Coupon … does not exist!” and th
 Test Case ID: TC-CHECKOUT-07
 Test Case Title: Checkout with Invalid Payment Method
 
+Priority: Critical
 Description: Ensure appropriate error handling when an invalid payment method is used.
 Precondition: The user should have at least one item in the cart and stay on the cart page
 Test Data: -
@@ -463,6 +490,7 @@ Expected Result: An appropriate error message is displayed like "The provided IB
 Test Case ID: TC-CHECKOUT-08
 Test Case Title: Checkout with Cancel Functionality
 
+Priority: Medium
 Description: Ensure the user can cancel payment and is redirected to the Checkout page after the canceled payment.
 Precondition: The user should have at least one item in the cart and stay on the cart page.
 Test Data: - 
@@ -481,6 +509,7 @@ Expected Result: The user can cancel the payment, he is redirected to the Checko
 Test Case ID: TC-CHECKOUT-09
 Test Case Title: Initiate new Payment after Canceled Payment 
 
+Priority: Medium
 Description: Ensure the user is redirected to the Checkout page after canceling payment with the opportunity to continue payment for the same order again.
 Precondition: The user should have at least one item in the cart and stay on the cart page.
 Test Data: - 
@@ -502,6 +531,7 @@ The user can choose payment methods again and pay for the order.
 Test Case ID: TC-CHECKOUT-10
 Test Case Title: Verify payment failing if terms and conditions are not accepted
 
+Priority: High
 Description: Ensure the error message appears: Please read and accept the terms and conditions to proceed with your order" if the user is not accepting the terms and conditions of the website.
 Precondition: The user should have at least one item in the cart and stay on the cart page.
 Test Data: - 
@@ -523,6 +553,7 @@ After not agreeing with the website terms and conditions, an appropriate error m
 Test Case ID: TC-CHECKOUT-11
 Test Case Title: Checkout with Required Fields Missing
 
+Priority: Critical
 Description: Ensure appropriate error handling when required fields are missing.
 Precondition: - 
 Test Data: - 
@@ -541,6 +572,7 @@ Expected Result: Appropriate error messages are displayed for missing fields, an
 Test Case ID: TC-CHECKOUT-12
 Test Case Title: Verify Order Confirmation Email
 
+Priority: High
 Description: Ensure the user receives an order confirmation email upon successful checkout.
 Precondition: The user should have at least one item in the cart and stay on the cart page.
 Test Data: - 
@@ -559,6 +591,7 @@ Expected Result: An order confirmation email is received, well-formatted, and co
 Test Case ID: TC-CHECKOUT-13
 Test Case Title: Verify Persistence of Cart and Checkout Information
 
+Priority: Low
 Description: Ensure cart and checkout information persist if the user navigates away and returns to the checkout page.
 Precondition: The user should have at least one item in the cart and stay on the cart page.
 Test Data: - 
@@ -574,6 +607,7 @@ Expected Result: The items stay in the cart and any entered checkout information
 Test Case ID: TC-CHECKOUT-14
 Test Case Title: Create Account During Checkout (Valid Data) 
 
+Priority: High
 Description: Ensure that the user can create an account on the checkout with valid data.
 Precondition: The user should have at least one item in the cart and stay on the cart page.
 Test Data: - 
@@ -593,6 +627,7 @@ Expected Result: The account is created successfully, the order is placed, and t
 Test Case ID: TC-CHECKOUT-15
 Test Case Title: Create Account During Checkout (Invalid Email)
 
+Priority: High
 Description: Ensure appropriate error handling when an invalid email is used to create an account during checkout.
 Precondition: The user should have at least one item in the cart and stay on the cart page.
 Steps:
@@ -609,6 +644,7 @@ Expected Result: An appropriate error message is displayed: "Please enter a vali
 Test Case ID: TC-CHECKOUT-16
 Test Case Title: Create Account During Checkout (Already Existing Email)
 
+Priority: High
 Description: Ensure appropriate error handling when an email already associated with an existing account is used.
 Precondition: The user should have at least one item in the cart and stay on the cart page.
 Steps:
@@ -625,6 +661,7 @@ Expected Result: An error message is displayed: "An account is already registere
 Test Case ID: TC-CHECKOUT-17
 Test Case Title: Verify Account Creation Confirmation Email
 
+Priority: Low
 Description: Ensure the user receives an account creation confirmation email upon creating an account during checkout.
 Precondition: The user should have at least one item in the cart and stay on the cart page.
 Steps:
@@ -644,6 +681,7 @@ Expected Result: The user receives an account creation confirmation email with d
 Test Case ID: TC-CHECKOUT-18
 Test Case Title: Verify Order Information in User Account (for Registered Users)
 
+Priority: Low
 Description: Ensure the order appears correctly in the user's account order history after a successful checkout.
 Precondition: The user should have an account in the system and be logged in. Also, the user should have at least one item in the cart and stay on the cart page.
 Test Data: - Email address, password
@@ -663,6 +701,7 @@ Expected Result: The new order appears in the order history with the correct ord
 Test Case ID: TC-CHECKOUT-19
 Test Case Title: Verify Checkout Process with Different Payment Methods
 
+Priority: Critical
 Description: Ensure the checkout process works correctly with different payment methods (e.g., Invoice. Credit/Debit card, Direct Debit (SEPA)).
 Precondition: The user should have at least one item in the cart and stay on the cart page.
 Test Data: - 
@@ -681,6 +720,7 @@ Expected Result: The checkout is completed successfully with each payment method
 Test Case ID: TC-SORT-01
 Test Case Title: Verify Default Sorting
 
+Priority: Medium
 Description: Ensure the default sorting option works as expected.
 Precondition: There are at least three products in the shop with a known sequence of the products.
 Test Steps:
@@ -696,6 +736,7 @@ Expected Result: Products are sorted according to the default sorting criteria s
 Test Case ID: TC-SORT-02
 Test Case Title: Sort by Popularity
 
+Priority: Medium
 Description: Ensure products are sorted by popularity.
 Precondition: There should be at least three products in the shop with known popularity.
 Test Data: - 
@@ -712,6 +753,7 @@ Expected Result: Products are displayed in order of popularity, from the most po
 Test Case ID: TC-SORT-03
 Test Case Title: Sort by Latest
 
+Priority: Medium
 Description: Ensure the "Sort by latest" sorting option correctly orders products by their addition date, with the newest products displayed first.
 Precondition: There should be at least three items in the shop and products with known, distinct addition dates in the shop.
 Test Data: - 
@@ -731,6 +773,7 @@ Expected Result:
 Test Case ID: TC-SORT-04
 Test Case Title: Sort by Price (Low to High)
 
+Priority: Medium
 Description: Ensure products are sorted by price in ascending order.
 Precondition: There should be at least three items in the shop.
 Test Data: - 
@@ -747,6 +790,7 @@ Expected Result: Products are displayed in ascending order of price, from the lo
 Test Case ID: TC-SORT-05
 Test Case Title: Sort by Price (High to Low)
 
+Priority: Medium
 Description: Ensure products are sorted by price in descending order.
 Precondition: There should be at least three items in the shop.
 Test Data: - 
@@ -763,6 +807,7 @@ Expected Result: Products are displayed in descending order of price, from the h
 Test Case ID: TC-SORT-06
 Test Case Title: Validate Sorting Persistence After Page Refresh
 
+Priority: Low
 Description: Ensure the selected sorting option persists after refreshing the page.
 Precondition: There should be at least three items in the shop.
 Test Data: - 
@@ -780,6 +825,7 @@ Expected Result: The selected sorting option remains applied after the page refr
 Test Case ID: TC-SORT-07
 Test Case Title: Validate Sorting Persistence After Navigation
 
+Priority: Low
 Description: Ensure the selected sorting option persists after navigating to another page and returning back to the homepage.
 Precondition: There should be at least three items in the shop.
 Test Data: - 
@@ -798,6 +844,7 @@ Expected Result: The selected sorting option remains applied when returning to t
 Test Case ID: TC-SORT-08
 Test Case Title: Verify Sorting Performance
 
+Priority: Low
 Description: Ensure the sorting operation performs efficiently.
 Precondition: There should be at least three items in the shop.
 Test Data: - 
@@ -816,6 +863,7 @@ Expected Result: The sorting operation completes quickly, and products are displ
 Test Case ID: TC-ACCOUNT-01
 Test Case Title: Verify the user can log in if the correct data is entered
 
+Priority: Low
 Description: Ensure the user can log to the system if he provided the correct email and correct password.
 Precondition: The user should successfully create an account during checkout.
 Test Data: Email address, password
@@ -831,6 +879,7 @@ Expected Result: The user can log in successfully with the created account crede
 Test Case ID: TC-ACCOUNT-02
 Test Case Title: Verify Error message appears if the wrong email is entered
 
+Priority: Medium
 Description: Ensure an error message appears: "Unknown email address. Check again or try your username." when the email is not valid.
 Precondition: The user has an account on the website.
 Test Data: Email address, password
@@ -847,6 +896,7 @@ Expected Result: The user is not able to connect to his account and the error me
 Test Case ID: TC-ACCOUNT-03
 Test Case Title: Verify Error message appears if the wrong password is entered
 
+Priority: Medium
 Description: Ensure the error message appears: " Error: The password you entered for the email address ... is incorrect. Lost your password?"
 Precondition: The user has an account on the website.
 Test Data: Email address, password
@@ -863,6 +913,7 @@ Expected Result: The user is not able to connect to his account and the error me
 Test Case ID: TC-ACCOUNT-04
 Test Case Title: Verify user can recover his password
 
+Priority: Low
 Description: Ensure the link exists: "Lost your password?" under the "Log in" button
 Precondition: The user has an account on the website.
 Test Data: Email address
@@ -882,6 +933,7 @@ Expected Result: After clicking the "Lost your password?" link, the user gets a 
 Test Case ID: TC-ACCOUNT-05
 Test Case Title: Verify Order Page Navigation
 
+Priority: Low
 Description: Ensure the user can navigate to the order page.
 Precondition: The user has an account on the website and is logged in.
 Test Data: Email address, password
@@ -897,6 +949,7 @@ Expected Result: The user is redirected to the orders page where he can see the 
 Test Case ID: TC-ACCOUNT-06
 Test Case Title: Verify Subscriptions Page Navigation
 
+Priority: Low
 Description: Ensure the user can navigate to the subscriptions page.
 Precondition: The user has an account on the website and is logged in.
 Test Data: Email address, password
@@ -913,6 +966,7 @@ Expected Result: The user is redirected to the subscriptions page where he can s
 Test Case ID: TC-ACCOUNT-07
 Test Case Title: Verify Downloads Page Navigation
 
+Priority: Low
 Description: Ensure the user can navigate to the downloads page.
 Precondition: The user has an account on the website and is logged in.
 Test Data: Email address, password
@@ -928,6 +982,7 @@ Expected Result: The user is redirected to the downloads page where he can see h
 Test Case ID: TC-ACCOUNT-08
 Test Case Title: Verify Coupons Page Navigation
 
+Priority: Low
 Description: Ensure the user can navigate to the coupons page.
 Precondition: The user has an account on the website and is logged in.
 Test Data: Email address, password
@@ -942,6 +997,7 @@ Expected Result: The user is redirected to the coupons page where he can see all
 Test Case ID: TC-ACCOUNT-09
 Test Case Title: Changing the Shipping Address
 
+Priority: Low
 Description: The user can change his shipping or billing address in the system.
 Precondition: The user has an account on the website and is logged in.
 Test Data: Email address, password
@@ -959,6 +1015,7 @@ Expected Result: the user can change the address and gets a success message: "Ad
 Test Case ID: TC-ACCOUNT-10
 Test Case Title: Verify Account Details Page Navigation
 
+Priority: Low
 Description: Ensure the user can navigate to the account details page.
 Precondition: The user has an account on the website and is logged in.
 Test Data: Email address, password
@@ -975,6 +1032,7 @@ Expected Result: The user is redirected to the Account details page where he can
 Test Case ID: TC-ACCOUNT-11
 Test Case Title: Password Change in Account Details Page (Strong Password)
 
+Priority: Medium
 Description: Ensure the user can change his password to the strong one.
 Precondition: The user has an account on the website and is logged in.
 Test Data: Email address, password
@@ -991,6 +1049,7 @@ Expected Result: The user is allowed to save a new strong password.
 Test Case ID: TC-ACCOUNT-12
 Test Case Title: Password Change in Account Details Page (Weak Password)
 
+Priority: Low
 Description: Ensure appropriate error handling when a weak password is used to change the password.
 Precondition: The user has an account on the website and is logged in.
 Test Data: Email address, password
@@ -1008,6 +1067,7 @@ Hint: The password should be at least twelve characters long. To make it stronge
 Test Case ID: TC-ACCOUNT-13
 Test Case Title: Verify Log Out Page Navigation
 
+Priority: Low
 Description: Ensure the user can navigate to the Logout page.
 Precondition: The user has an account on the website and is logged in.
 Test Data: Login name, Password
@@ -1023,6 +1083,7 @@ Expected Result: The user is redirected to the log-out page where he can disconn
 Test Case ID: TC-HOMEPAGE-08
 Test Case Title: Verify Navigation Using Breadcrumbs
 
+Priority: Low
 Description: Ensure breadcrumb links navigate to the correct pages.
 Precondition: - 
 Test Data: - 
@@ -1037,6 +1098,7 @@ Expected Result: Each breadcrumb link navigates to the corresponding page withou
 Test Case ID: TC-HOMEPAGE-09
 Test Case Title: Verify Mobile Menu Functionality
 
+Priority: Medium
 Description: Ensure the mobile menu works correctly and navigates to the correct pages.
 Precondition: - 
 Test Data: - 
