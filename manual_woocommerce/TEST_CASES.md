@@ -45,7 +45,8 @@
 
 **Expected Result:**
 
- The user is redirected to the respective product page, and the product details are displayed correctly.
+The user is redirected to the respective product page, and the product details are displayed correctly.
+
 ---
 
 **Test Case ID:** TC-NAVIGATE-03
