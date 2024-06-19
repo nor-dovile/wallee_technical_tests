@@ -28,17 +28,30 @@ How I ran my script.
 
 Now we're ready to start testing `magento-2`
 
+## General design pattern applied
+
+When using Cypress I use the Page object model (POM), is a design pattern where classes are represented as pages.
+So in general I have two main folders: `./cypress/e2e` and `./cypress/pom`.
+
+In e2e I describe all the test cases and in pom I write all the functions that I call that represents an element in the page.
+
+In pom I use javascript clasess to wrapp all the methods.
+
 ## The design of the test scenarios
 
 The base to write test scenarios is to look at the **acceptance criteria**. So starting
 from them we'll create the test scenarios and what we could consider a success test.
 
-* [Users are able to navigate to the different pages on the website](#navigation-on-different-pages)
-* [The user should be able to add products to their cart, and the cart should update automatically, displaying the correct number of items.](#cart-functions-correctly)
-* [The checkout process should be completed without any errors, and the user should receive an order confirmation email upon successful checkout.](#checkout-process-confirmation)
-* [The sorting function should return accurate results for valid sorting terms.](#sorting-functionality)
-* [The user should be able to create an account on the checkout.](#create-account-at-checkout)
-* [All menu items on the webshop should be functional and navigate to the correct page, without any errors or broken links](#items-functionality)
+- [GENERAL PROCESS](#general-process)
+  - [How I started setting up the project with Cypress](#how-i-started-setting-up-the-project-with-cypress)
+- [General design pattern applied](#general-design-pattern-applied)
+- [The design of the test scenarios](#the-design-of-the-test-scenarios)
+  - [Users are able to navigate to the different pages on the website.](#users-are-able-to-navigate-to-the-different-pages-on-the-website)
+  - [The user should be able to add products to their cart, and the cart should update automatically, displaying the correct number of items.](#the-user-should-be-able-to-add-products-to-their-cart-and-the-cart-should-update-automatically-displaying-the-correct-number-of-items)
+  - [The checkout process should be completed without any errors, and the user should receive an order confirmation email upon successful checkout.](#the-checkout-process-should-be-completed-without-any-errors-and-the-user-should-receive-an-order-confirmation-email-upon-successful-checkout)
+  - [The sorting function should return accurate results for valid sorting terms.](#the-sorting-function-should-return-accurate-results-for-valid-sorting-terms)
+  - [The user should be able to create an account on the checkout.](#the-user-should-be-able-to-create-an-account-on-the-checkout)
+  - [All menu items on the webshop should be functional and navigate to the correct page, without any errors or broken links](#all-menu-items-on-the-webshop-should-be-functional-and-navigate-to-the-correct-page-without-any-errors-or-broken-links)
 
 <div id="navigation-on-different-pages"></div>
 ### Users are able to navigate to the different pages on the website.
