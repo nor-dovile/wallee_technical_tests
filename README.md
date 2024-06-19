@@ -15,7 +15,7 @@ As part of my application to the position of Quality Assurance Engineer at Walle
 
 Please follow the documentation on each separate project.
 
-- [Manual README](manual_woocommers/README.md)
+- [Manual README](manual_woocommerce/README.md)
 - [Automation README](automation_magento-2/README.md)
 
 ## Contributors
