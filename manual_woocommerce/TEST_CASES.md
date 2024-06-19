@@ -509,7 +509,7 @@ Expected Result: The user can cancel the payment, he is redirected to the Checko
 Test Case ID: TC-CHECKOUT-09
 Test Case Title: Initiate new Payment after Canceled Payment 
 
-Priority: Medium
+Priority: Critical
 Description: Ensure the user is redirected to the Checkout page after canceling payment with the opportunity to continue payment for the same order again.
 Precondition: The user should have at least one item in the cart and stay on the cart page.
 Test Data: - 
@@ -863,7 +863,7 @@ Expected Result: The sorting operation completes quickly, and products are displ
 Test Case ID: TC-ACCOUNT-01
 Test Case Title: Verify the user can log in if the correct data is entered
 
-Priority: Low
+Priority: Medium
 Description: Ensure the user can log to the system if he provided the correct email and correct password.
 Precondition: The user should successfully create an account during checkout.
 Test Data: Email address, password
