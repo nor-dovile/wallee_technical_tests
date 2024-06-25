@@ -31,11 +31,7 @@ describe('Checkout should be completed without any errors', () => {
       })
 
     // check the correct number is showed in the chart
-    cy.get('.minicart-wrapper')
-      .children('.showcart')
-      .children('.counter')
-      .children('.counter-number')
-      .invoke('text')
+    cartIcon.getCartNumberOfItems()
       .then((text) => {
         expect(text).to.match(/1/)
       })
@@ -44,8 +40,14 @@ describe('Checkout should be completed without any errors', () => {
     cartIcon.clickOnIcon()
     cartIcon.clickProceedToCheckout()
 
+    cy.url().should('eq', `${Cypress.env('baseUrl')}/checkout/#shipping`)
+    cy.wait(1000)
+    cy.reload()
+    cy.reload()
+    cy.wait(1000)
+
     // fill the shipping form
-    shipping.fillUpEmail('example@example.com')
+    shipping.fillUpEmail(faker.internet.email())
     shipping.fillUpFirstName()
     shipping.fillUpLastName()
     shipping.fillUpStreetAddress()
@@ -73,6 +75,9 @@ describe('Checkout should be completed without any errors', () => {
 
 describe('User should be able to create an account at the end of the checkout process', () => {
   beforeEach(() => {
+    cy.clearCookies()
+    cy.clearLocalStorage()
+    cy.clearAllSessionStorage({log: true})
     cy.visit('/women.html')
   })
 
@@ -99,6 +104,11 @@ describe('User should be able to create an account at the end of the checkout pr
     // go to checkout
     cartIcon.clickOnIcon()
     cartIcon.clickProceedToCheckout()
+
+    cy.wait(1000)
+    cy.reload()
+    cy.reload()
+    cy.wait(1000)
 
     // fill the shipping form
     shipping.fillUpEmail(faker.internet.email())
@@ -145,6 +155,9 @@ describe('User should be able to create an account at the end of the checkout pr
 
 describe('Negative scenario: User should receive warnings if required fields are missing in the shipping address form', () => {
   beforeEach(() => {
+    cy.clearCookies()
+    cy.clearLocalStorage()
+    cy.clearAllSessionStorage({log: true})
     cy.visit('/women.html')
   })
 
@@ -178,11 +191,14 @@ describe('Negative scenario: User should receive warnings if required fields are
     // check that the warning for shipping method appears
     shipping.checkShippingMethodErrorIsVisible()
 
+    cy.wait(1000)
+    cy.reload()
+    cy.reload()
+    cy.wait(1000)
+
     // select a shipping method
     shipping.selectShippingMethod()
     shipping.clickOnNext()
-
-    cy.wait(500);
 
     // check that the required fields errors appear in the form
     shipping.checkRequiredFieldErrorOnEmail()
